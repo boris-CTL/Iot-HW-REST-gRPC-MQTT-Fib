@@ -54,7 +54,7 @@ python3 fib_server.py
 cd mosquitto-part
 python3 logging_server.py
 ```
-- POST method to sent Fibonacci-order-request to servers.
+- POST method to send Fibonacci-order-request to servers.
 ```bash
 curl -X POST -H "Content-Type: application/json" http://localhost:8000/rest/fibonacci/ -d "{\"order\": #Number}"
 ```
@@ -64,3 +64,4 @@ curl -X POST -H "Content-Type: application/json" http://localhost:8000/rest/fibo
 curl http://localhost:8000/rest/logs
 ```
  - Video Links(Youtube):
+   https://youtu.be/3PO81y3eGh0
