@@ -64,4 +64,3 @@ curl -X POST -H "Content-Type: application/json" http://localhost:8000/rest/fibo
 curl http://localhost:8000/rest/logs
 ```
  - Video Links(Youtube):
-  https://www.youtube.com/watch?v=Zd5jSDRjWfA&t=330s
